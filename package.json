@@ -2,6 +2,10 @@
   "name": "@oxwazz/create-simple-be",
   "version": "0.1.0",
   "private": false,
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
   "scripts": {
     "start": "prisma generate && ts-node index.ts",
     "dev": "nodemon index.ts"
