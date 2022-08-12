@@ -6,6 +6,7 @@
     "access": "public",
     "registry": "https://registry.npmjs.org/"
   },
+  "bin": "./.bin/start-boilerplate.js",
   "scripts": {
     "start": "prisma generate && ts-node index.ts",
     "dev": "nodemon index.ts"
